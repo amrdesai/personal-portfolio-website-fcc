@@ -1,0 +1,112 @@
+/* ==================== */
+/* +++ MEDIA QUERY +++ */
+/* ================== */
+@media screen and (max-width: 1300px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    #welcome-section p {
+        font-size: 2em;
+    }
+
+    #projects .one-by-three {
+        width: 95%;
+    }
+
+    input, textarea {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+   #skills .one-by-three {
+       width: 100%;
+   } 
+
+   .project-image {
+       height: 200px;
+   }
+}
+
+@media screen and (max-width: 1000px) {
+    #projects .one-by-three {
+        width: 100%;
+    }
+
+   #projects .one-by-three {
+        flex-wrap: wrap;
+        /* display: inline-block; */
+    }
+
+    .project-tile {
+        width: 45%;
+    }
+
+    input, textarea {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .one-by-three-box {
+        width: 40%; 
+     }
+
+     .project-tile h3 {
+         font-size: 1.25em;
+     }
+
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3m;
+    }
+
+    #welcome-section p {
+        font-size: 1.6em;
+    }
+
+    .project-tile {
+        width: 85%;
+    }
+
+    .project-tile h3 {
+        font-size: 1.5em;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+
+    input[type=submit] {
+        width: 50%;
+    }
+
+}
+
+
+/* 48em = 768px @ 16pt font */
+  
+@media (min-width: 48em) {
+    #header li {
+      float: left;
+    }
+    
+    .nav-link {
+      padding: 12px 30px;
+    }
+    #header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    #header .menu-icon {
+      display: none;
+    }
+  
+    #header li a:hover::after {
+      width: 70%;
+      }
+  }
